@@ -156,6 +156,7 @@ else
   setpath "product" "nameShort" "${APP_NAME}"
   setpath "product" "nameLong" "${APP_NAME}"
   setpath "product" "applicationName" "${BINARY_NAME}"
+  setpath "product" "dataFolderName" ".${BINARY_NAME}"
   setpath "product" "linuxIconName" "${BINARY_NAME}"
   setpath "product" "quality" "stable"
   setpath "product" "urlProtocol" "${BINARY_NAME}"
