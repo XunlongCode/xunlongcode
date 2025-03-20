@@ -46,7 +46,7 @@ if [[ "${VSCODE_ARCH}" == "x64" ]]; then
 
   rm -f pkg2appimage-*.AppImage
   rm -rf pkg2appimage.AppDir
-  rm -rf "${APP_NAME}*"
+  rm -rf ${APP_NAME}*
 fi
 
 cd "${CALLER_DIR}"
