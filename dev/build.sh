@@ -5,7 +5,7 @@
 # to run with Bash: "C:\Program Files\Git\bin\bash.exe" ./dev/build.sh
 ###
 
-export APP_NAME="OrangePiCode"
+export APP_NAME="OrangePi Code"
 export BINARY_NAME="orangepicode"
 export CI_BUILD="no"
 export GH_REPO_PATH="XunlongCode/orangepicode"
