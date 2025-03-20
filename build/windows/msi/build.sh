@@ -6,18 +6,21 @@ CALLER_DIR=$( pwd )
 
 cd "$( dirname "${BASH_SOURCE[0]}" )"
 
+PRODUCT_NAME_ID="ORANGEPICODE"
+GH_REPO_PATH="XunlongCode/orangepicode"
+
 WIN_SDK_MAJOR_VERSION="10"
 WIN_SDK_FULL_VERSION="10.0.17763.0"
 
 if [[ "${VSCODE_QUALITY}" == "insider" ]]; then
-  PRODUCT_NAME="VSCodium - Insiders"
-  PRODUCT_CODE="VSCodiumInsiders"
+  PRODUCT_NAME="OrangePi Code - Insiders"
+  PRODUCT_CODE="OrangePiCodeInsiders"
   PRODUCT_UPGRADE_CODE="1C9B7195-5A9A-43B3-B4BD-583E20498467"
   ICON_DIR="..\\..\\..\\src\\insider\\resources\\win32"
   SETUP_RESOURCES_DIR=".\\resources\\insider"
 else
-  PRODUCT_NAME="VSCodium"
-  PRODUCT_CODE="VSCodium"
+  PRODUCT_NAME="OrangePi Code"
+  PRODUCT_CODE="OrangePiCode"
   PRODUCT_UPGRADE_CODE="965370CD-253C-4720-82FC-2E6B02A53808"
   ICON_DIR="..\\..\\..\\src\\stable\\resources\\win32"
   SETUP_RESOURCES_DIR=".\\resources\\stable"
@@ -48,8 +51,10 @@ fi
 
 sed -i "s|@@PRODUCT_UPGRADE_CODE@@|${PRODUCT_UPGRADE_CODE}|g" .\\includes\\vscodium-variables.wxi
 sed -i "s|@@PRODUCT_NAME@@|${PRODUCT_NAME}|g" .\\vscodium.xsl
+sed -i "s|@@PRODUCT_NAME_ID@@|${PRODUCT_NAME_ID}|g" .\\vscodium.xsl
 
 find i18n -name '*.wxl' -print0 | xargs -0 sed -i "s|@@PRODUCT_NAME@@|${PRODUCT_NAME}|g"
+find i18n -name '*.wxl' -print0 | xargs -0 sed -i "s|@@GH_REPO_PATH@@|${GH_REPO_PATH}|g"
 
 BuildSetupTranslationTransform() {
 	local CULTURE=${1}

@@ -6,6 +6,7 @@
 ###
 
 export APP_NAME="OrangePi Code"
+export APP_CODE="OrangePiCode"
 export BINARY_NAME="orangepicode"
 export CI_BUILD="no"
 export GH_REPO_PATH="XunlongCode/orangepicode"
