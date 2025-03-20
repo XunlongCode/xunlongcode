@@ -26,6 +26,7 @@ echo "APP_CODE=\"${APP_CODE}\""
 echo "APP_NAME_LC=\"${APP_NAME_LC}\""
 echo "BINARY_NAME=\"${BINARY_NAME}\""
 echo "GH_REPO_PATH=\"${GH_REPO_PATH}\""
+echo "VERSION_REPO_NAME=\"${VERSION_REPO_NAME}\""
 echo "ORG_NAME=\"${ORG_NAME}\""
 
 for file in ../patches/*.patch; do
@@ -124,7 +125,7 @@ setpath "product" "tipsAndTricksUrl" "https://go.microsoft.com/fwlink/?linkid=85
 setpath "product" "twitterUrl" "https://go.microsoft.com/fwlink/?LinkID=533687"
 
 if [[ "${DISABLE_UPDATE}" != "yes" ]]; then
-  setpath "product" "updateUrl" "https://raw.githubusercontent.com/${ORG_NAME}/versions/refs/heads/master"
+  setpath "product" "updateUrl" "https://raw.githubusercontent.com/${ORG_NAME}/${VERSION_REPO_NAME}/refs/heads/master"
   setpath "product" "downloadUrl" "https://github.com/${GH_REPO_PATH}/releases"
 fi
 
