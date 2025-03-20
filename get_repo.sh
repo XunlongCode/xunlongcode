@@ -66,8 +66,11 @@ echo "RELEASE_VERSION=\"${RELEASE_VERSION}\""
 mkdir -p vscode
 cd vscode || { echo "'vscode' dir not found"; exit 1; }
 
+# REPO_URL="https://github.com/Microsoft/vscode.git"
+REPO_URL="git@github.com:XunlongCode/orangepicode.git"
+
 git init -q
-git remote add origin https://github.com/Microsoft/vscode.git
+git remote add origin "${REPO_URL}"
 
 # figure out latest tag by calling MS update API
 if [[ -z "${MS_TAG}" ]]; then
