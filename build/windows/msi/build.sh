@@ -15,13 +15,13 @@ WIN_SDK_FULL_VERSION="10.0.17763.0"
 if [[ "${VSCODE_QUALITY}" == "insider" ]]; then
   PRODUCT_NAME="OrangePi Code - Insiders"
   PRODUCT_CODE="OrangePiCodeInsiders"
-  PRODUCT_UPGRADE_CODE="1C9B7195-5A9A-43B3-B4BD-583E20498467"
+  PRODUCT_UPGRADE_CODE="BE0FDF62-B67B-4B89-BA23-A882D6E521FE"
   ICON_DIR="..\\..\\..\\src\\insider\\resources\\win32"
   SETUP_RESOURCES_DIR=".\\resources\\insider"
 else
   PRODUCT_NAME="OrangePi Code"
   PRODUCT_CODE="OrangePiCode"
-  PRODUCT_UPGRADE_CODE="965370CD-253C-4720-82FC-2E6B02A53808"
+  PRODUCT_UPGRADE_CODE="5B0044CC-FE9B-47ED-A9C6-63688B6AE913"
   ICON_DIR="..\\..\\..\\src\\stable\\resources\\win32"
   SETUP_RESOURCES_DIR=".\\resources\\stable"
 fi

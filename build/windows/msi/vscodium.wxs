@@ -77,7 +77,7 @@
             <util:RemoveFolderEx On="uninstall" Property="APPLICATIONFOLDER" />
           </Component>
 
-          <Component Id="AddFileTypeAssociationASCX" Guid="C81496CA-9F8C-4C54-84DF-79373CB0A390">
+          <Component Id="AddFileTypeAssociationASCX" Guid="D2EB3CEE-C195-4461-982E-75DA773CE191">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="ascx" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).ascx" Description="ASCX" Icon="XML.ICO">
               <Extension Id="ascx">
@@ -85,7 +85,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationASP" Guid="4776BA1D-A3E5-45A7-B794-5E0E446BD5E0">
+          <Component Id="AddFileTypeAssociationASP" Guid="A85324E4-4E22-42C8-ABEB-509A8A86EBE6">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="asp" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).asp" Description="ASP" Icon="HTML.ICO">
               <Extension Id="asp">
@@ -93,7 +93,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationASPX" Guid="1F4F0046-60C7-4280-ACC4-248D97B1D731">
+          <Component Id="AddFileTypeAssociationASPX" Guid="C8E53DCC-CABC-4011-A47B-0EBA2648FF7A">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="aspx" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).aspx" Description="ASPX" Icon="HTML.ICO">
               <Extension Id="aspx">
@@ -101,7 +101,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationBASH" Guid="BAB4425E-57BC-425B-9C30-46A2FD4491D1">
+          <Component Id="AddFileTypeAssociationBASH" Guid="73C37BD6-91ED-4627-84BB-C7E21BC5E241">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="bash" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).bash" Description="Bash" Icon="SHELL.ICO">
               <Extension Id="bash">
@@ -109,7 +109,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationBASHLOGIN" Guid="7025510E-E0D0-4004-8E76-E7CCBFDFB46F">
+          <Component Id="AddFileTypeAssociationBASHLOGIN" Guid="EF037364-9610-41F1-AF7A-9DEB32776ED2">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="bash_login" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).bash_login" Description="Bash Login" Icon="SHELL.ICO">
               <Extension Id="bash_login">
@@ -117,7 +117,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationBASHLOGOUT" Guid="D48679A2-9D71-4D93-87E8-7E3D2470507D">
+          <Component Id="AddFileTypeAssociationBASHLOGOUT" Guid="DC43BF37-5006-4E28-99C4-7833EC9B695B">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="bash_logout" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).bash_logout" Description="Bash Logout" Icon="SHELL.ICO">
               <Extension Id="bash_logout">
@@ -125,7 +125,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationBASHPROFILE" Guid="33E89E3D-0D76-400B-8C5A-5AD6BA48E38A">
+          <Component Id="AddFileTypeAssociationBASHPROFILE" Guid="3E24E23B-9B1D-4D9B-9426-EC730F5763EB">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="bash_profile" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).bash_profile" Description="Bash Profile" Icon="SHELL.ICO">
               <Extension Id="bash_profile">
@@ -133,7 +133,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationBASHRC" Guid="6B04B2A7-AFBC-4FDA-B9DD-BA3D5E469A40">
+          <Component Id="AddFileTypeAssociationBASHRC" Guid="B65AA934-F3D4-4443-94A4-54E96B83CF58">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="bashrc" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).bashrc" Description="Bash RC" Icon="SHELL.ICO">
               <Extension Id="bashrc">
@@ -141,7 +141,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationBIB" Guid="AA3D8227-4269-4D52-9689-708668DBDF82">
+          <Component Id="AddFileTypeAssociationBIB" Guid="1892D302-173B-4574-8CF0-A7B307DDB8F5">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="bib" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).bib" Description="BibTeX" Icon="DEFAULT.ICO">
               <Extension Id="bib">
@@ -149,7 +149,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationBOWERRC" Guid="8F51CF9D-3050-4AAC-89E9-87FFCB20F306">
+          <Component Id="AddFileTypeAssociationBOWERRC" Guid="BA33C47C-80B3-4C13-80AE-A23FF7F62316">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="bowerrc" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).bowerrc" Description="Bower RC" Icon="BOWER.ICO">
               <Extension Id="bowerrc">
@@ -157,7 +157,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationC" Guid="4E1B5157-8D22-463C-884F-F0EC1F6BC17B">
+          <Component Id="AddFileTypeAssociationC" Guid="757EC343-9B53-42E2-A864-8F08E07818D7">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="c" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).c" Description="C" Icon="C.ICO">
               <Extension Id="c">
@@ -165,7 +165,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationCC" Guid="2D38F6D1-ED21-4F48-AC15-04AB724887B6">
+          <Component Id="AddFileTypeAssociationCC" Guid="DFD8A352-B52D-44BC-B392-D36AD1AE3CAB">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="cc" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).cc" Description="C++" Icon="CPP.ICO">
               <Extension Id="cc">
@@ -173,7 +173,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationCLJ" Guid="F66BAB3D-429A-4BE2-9EED-A39143B3F31F">
+          <Component Id="AddFileTypeAssociationCLJ" Guid="D27362C3-746C-40BC-A02B-2CA95A26D7F6">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="clj" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).clj" Description="Clojure" Icon="DEFAULT.ICO">
               <Extension Id="clj">
@@ -181,7 +181,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationCLJS" Guid="55B49C2A-3885-4743-AE56-95ADC4D1AC1F">
+          <Component Id="AddFileTypeAssociationCLJS" Guid="C3AC2205-5861-42C9-8BAC-4213247C2F71">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="cljs" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).cljs" Description="ClojureScript" Icon="DEFAULT.ICO">
               <Extension Id="cljs">
@@ -189,7 +189,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationCLJX" Guid="0DBE4BED-89CB-4E5F-A3F3-3BA7A30BF701">
+          <Component Id="AddFileTypeAssociationCLJX" Guid="C2642166-F44A-463E-8BB1-C3DCE0F2A32E">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="cljx" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).cljx" Description="CLJX" Icon="DEFAULT.ICO">
               <Extension Id="cljx">
@@ -197,7 +197,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationCLOJURE" Guid="49DDEEC1-6D74-4B54-ADC3-D889FF8A8BBB">
+          <Component Id="AddFileTypeAssociationCLOJURE" Guid="5B190D12-9607-4B45-BA68-EB2EFE50CC58">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="clojure" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).clojure" Description="Clojure" Icon="DEFAULT.ICO">
               <Extension Id="clojure">
@@ -205,7 +205,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationCODEWORKSPACE" Guid="804B860E-8DDB-483C-90E9-1836B3D66BEF">
+          <Component Id="AddFileTypeAssociationCODEWORKSPACE" Guid="350089D4-BA48-4003-BBB4-6BA85FBA9CF9">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="code-workspace" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).code-workspace" Description="Code Workspace" Icon="DEFAULT.ICO">
               <Extension Id="code-workspace">
@@ -213,7 +213,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationCOFFEE" Guid="36A14BE3-B6EA-419C-BCD1-855728353331">
+          <Component Id="AddFileTypeAssociationCOFFEE" Guid="5BEA8CBD-205F-48C7-8341-8D089FBB87E3">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="coffee" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).coffee" Description="CoffeeScript" Icon="DEFAULT.ICO">
               <Extension Id="coffee">
@@ -221,7 +221,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationCONFIG" Guid="42CFDC98-9F06-440C-86FC-250E2AA298B9">
+          <Component Id="AddFileTypeAssociationCONFIG" Guid="370E9E0F-D234-4751-9D69-4CF959F7DFD8">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="config" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).config" Description="Configuration" Icon="CONFIG.ICO">
               <Extension Id="config">
@@ -229,7 +229,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationCPP" Guid="37805F30-6A06-4D0A-BEE4-C3CE21068009">
+          <Component Id="AddFileTypeAssociationCPP" Guid="FD78AE03-2CA6-4861-BA4A-5DCB05CA2F3C">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="cpp" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).cpp" Description="C++" Icon="CPP.ICO">
               <Extension Id="cpp">
@@ -237,7 +237,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationCS" Guid="F82F6697-57AC-47BD-BC5B-F17E2249FC50">
+          <Component Id="AddFileTypeAssociationCS" Guid="16C0B661-B933-424E-88A7-BCD640ECC04C">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="cs" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).cs" Description="C#" Icon="CSHARP.ICO">
               <Extension Id="cs">
@@ -245,7 +245,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationCSHTML" Guid="FC5B1912-7A19-4D94-9083-64E6ABDCBCE5">
+          <Component Id="AddFileTypeAssociationCSHTML" Guid="F2C23D62-C774-4F56-8E05-45081AF8029E">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="cshtml" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).cshtml" Description="CSHTML" Icon="HTML.ICO">
               <Extension Id="cshtml">
@@ -253,7 +253,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationCSPROJ" Guid="4FFBB1D3-70A5-4277-A531-C58ACEC8F494">
+          <Component Id="AddFileTypeAssociationCSPROJ" Guid="71BBEC75-1D4C-454F-96F3-0C04B916DFA6">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="csproj" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).csproj" Description="C# Project" Icon="XML.ICO">
               <Extension Id="csproj">
@@ -261,7 +261,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationCSS" Guid="A45C20E2-0CB7-468A-BFE6-2C63EF88969E">
+          <Component Id="AddFileTypeAssociationCSS" Guid="349248E9-CB99-4DB5-8510-97BD33D5EFAF">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="css" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).css" Description="CSS" Icon="CSS.ICO">
               <Extension Id="css">
@@ -269,7 +269,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationCSX" Guid="22EB60BA-ADCA-48EF-9DD1-DCDDC30AA808">
+          <Component Id="AddFileTypeAssociationCSX" Guid="D311A92E-021D-4ED9-921F-179A715E31C3">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="csx" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).csx" Description="C# Script" Icon="CSHARP.ICO">
               <Extension Id="csx">
@@ -277,7 +277,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationCTP" Guid="473C6903-0937-46D7-8648-7BFA8D7E6852">
+          <Component Id="AddFileTypeAssociationCTP" Guid="E1E5F7B2-764A-4762-8F72-FF8EFB9F5A7F">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="ctp" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).ctp" Description="CakePHP Template" Icon="DEFAULT.ICO">
               <Extension Id="ctp">
@@ -285,7 +285,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationCXX" Guid="1DC0553A-C8B8-4261-BB3A-3EFCB58AFC78">
+          <Component Id="AddFileTypeAssociationCXX" Guid="E459884A-F68A-4690-8609-B35EF8DE2CF9">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="cxx" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).cxx" Description="C++" Icon="CPP.ICO">
               <Extension Id="cxx">
@@ -293,7 +293,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationDOCKERFILE" Guid="40072249-01F2-4F5C-B060-A26E88939C07">
+          <Component Id="AddFileTypeAssociationDOCKERFILE" Guid="3FA957E8-D018-4947-94C4-1ED0D6C0F1B4">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="dockerfile" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).dockerfile" Description="Dockerfile" Icon="DEFAULT.ICO">
               <Extension Id="dockerfile">
@@ -301,7 +301,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationDOT" Guid="B8C2B4B8-A1C5-482A-AA49-F05118875B75">
+          <Component Id="AddFileTypeAssociationDOT" Guid="B77734AB-E42B-4C0F-8C6A-10A907626D9F">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="dot" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).dot" Description="Dot" Icon="DEFAULT.ICO">
               <Extension Id="dot">
@@ -309,7 +309,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationDTD" Guid="A7CA0834-C58C-4E4B-8D83-38427574F5A5">
+          <Component Id="AddFileTypeAssociationDTD" Guid="3D3489FE-D0F3-47B4-8453-A08C1751C573">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="dtd" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).dtd" Description="Document Type Definition" Icon="XML.ICO">
               <Extension Id="dtd">
@@ -317,7 +317,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationEDITORCONFIG" Guid="7FDA5A66-F2BB-43BF-BADD-33BDDFDD96A8">
+          <Component Id="AddFileTypeAssociationEDITORCONFIG" Guid="7BF2DD3A-D33D-4034-9DBC-48CBEBC8BA35">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="editorconfig" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).editorconfig" Description="Editor Config" Icon="CONFIG.ICO">
               <Extension Id="editorconfig">
@@ -325,7 +325,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationEDN" Guid="F2E27707-789D-4FFC-9EEC-945685C42652">
+          <Component Id="AddFileTypeAssociationEDN" Guid="984B4BC5-123D-4E7F-A84F-299C63943E78">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="edn" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).edn" Description="Extensible Data Notation" Icon="DEFAULT.ICO">
               <Extension Id="edn">
@@ -333,7 +333,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationEYAML" Guid="3D8475E0-0985-4CD2-A6E2-FE782D19073E">
+          <Component Id="AddFileTypeAssociationEYAML" Guid="EFB5FFE4-AA62-4A81-806C-AD027E561990">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="eyaml" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).eyaml" Description="Hiera Eyaml" Icon="YAML.ICO">
               <Extension Id="eyaml">
@@ -341,7 +341,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationEYML" Guid="917B533B-FBF5-42EC-95D4-5EFB877BC3F9">
+          <Component Id="AddFileTypeAssociationEYML" Guid="28D3EA1A-51CD-4765-998B-F523A3C2BBD6">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="eyml" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).eyml" Description="Hiera Eyaml" Icon="YAML.ICO">
               <Extension Id="eyml">
@@ -349,7 +349,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationFS" Guid="CBF222F7-A5ED-42C3-AC68-FDEB37EAC25A">
+          <Component Id="AddFileTypeAssociationFS" Guid="D1B01B9F-0685-494A-8519-511BC64D9A65">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="fs" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).fs" Description="F#" Icon="DEFAULT.ICO">
               <Extension Id="fs">
@@ -357,7 +357,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationFSI" Guid="38B1C85F-CB43-48C9-A4E9-1445D4E32DFA">
+          <Component Id="AddFileTypeAssociationFSI" Guid="0A39001C-34E0-4D08-834A-872D3767AB00">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="fsi" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).fsi" Description="F# Signature" Icon="DEFAULT.ICO">
               <Extension Id="fsi">
@@ -365,7 +365,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationFSSCRIPT" Guid="B735F8EF-95CA-40F9-99F5-75A23B151676">
+          <Component Id="AddFileTypeAssociationFSSCRIPT" Guid="3B5E3EF4-47A5-42B1-9533-52858DEEB8C5">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="fsscript" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).fsscript" Description="F# Script" Icon="DEFAULT.ICO">
               <Extension Id="fsscript">
@@ -373,7 +373,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationFSX" Guid="DF73F4D2-F960-46D5-A123-0AF3844E8D87">
+          <Component Id="AddFileTypeAssociationFSX" Guid="5B6A3EAD-7290-41FD-8C2B-B5D0E06F1E01">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="fsx" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).fsx" Description="F# Script" Icon="DEFAULT.ICO">
               <Extension Id="fsx">
@@ -381,7 +381,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationGEMSPEC" Guid="F0F87C8F-E4C8-4A4B-B44A-B196CDC5541A">
+          <Component Id="AddFileTypeAssociationGEMSPEC" Guid="B9AD04A0-ECBE-434C-ADC1-6402C9B46F56">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="gemspec" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).gemspec" Description="Gemspec" Icon="RUBY.ICO">
               <Extension Id="gemspec">
@@ -389,7 +389,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationGITATTRIBUTES" Guid="7CC51568-1EF4-4B4C-B5A2-112A4D19DC3C">
+          <Component Id="AddFileTypeAssociationGITATTRIBUTES" Guid="97E34C93-3CA4-4178-A78E-3900C25F6B3F">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="gitattributes" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).gitattributes" Description="Git Attributes" Icon="CONFIG.ICO">
               <Extension Id="gitattributes">
@@ -397,7 +397,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationGITCONFIG" Guid="80D83DBC-D225-4198-8AB7-C949F907EFBF">
+          <Component Id="AddFileTypeAssociationGITCONFIG" Guid="9261C275-EDB1-46D4-9D23-9FF91A3BA472">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="gitconfig" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).gitconfig" Description="Git Config" Icon="CONFIG.ICO">
               <Extension Id="gitconfig">
@@ -405,7 +405,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationGITIGNORE" Guid="47E8BAB4-FA09-48F4-A592-E489FD0B2EAD">
+          <Component Id="AddFileTypeAssociationGITIGNORE" Guid="58C98548-4290-444A-8BD6-CC23A61C196D">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="gitignore" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).gitignore" Description="Git Ignore" Icon="CONFIG.ICO">
               <Extension Id="gitignore">
@@ -413,7 +413,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationGO" Guid="6F9AD674-02A4-4B04-90C7-51D73FAE1890">
+          <Component Id="AddFileTypeAssociationGO" Guid="1FA2F1D4-3FFF-4F9D-85E8-B0002F02DF1F">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="go" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).go" Description="Go" Icon="GO.ICO">
               <Extension Id="go">
@@ -421,7 +421,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationH" Guid="409E67FD-4E3D-4B84-B6F0-F4F181FC1934">
+          <Component Id="AddFileTypeAssociationH" Guid="FEC85CB3-8CA2-433B-9332-BB0158C1775B">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="h" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).h" Description="C Header" Icon="C.ICO">
               <Extension Id="h">
@@ -429,7 +429,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationHANDLEBARS" Guid="E1D2E7C7-3985-4DEA-BA1A-EDAEBE6D9274">
+          <Component Id="AddFileTypeAssociationHANDLEBARS" Guid="E9277509-9FF4-43AF-A8FC-DDD275122121">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="handlebars" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).handlebars" Description="Handlebars" Icon="DEFAULT.ICO">
               <Extension Id="handlebars">
@@ -437,7 +437,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationHBS" Guid="A0847250-24BF-4D60-9D00-F8B1BE2EBE85">
+          <Component Id="AddFileTypeAssociationHBS" Guid="7A54B05A-2A89-49FA-994A-2AE8110F9FEC">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="hbs" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).hbs" Description="Handlebars" Icon="DEFAULT.ICO">
               <Extension Id="hbs">
@@ -445,7 +445,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationHH" Guid="01EC3BA1-F172-482F-ACF5-EB905D5AC01B">
+          <Component Id="AddFileTypeAssociationHH" Guid="92325FED-2E2E-4FAC-AE58-4958AB830CAD">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="hh" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).hh" Description="C++ Header" Icon="CPP.ICO">
               <Extension Id="hh">
@@ -453,7 +453,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationHPP" Guid="62C5B05C-BAF8-4AC4-913B-7F579B742977">
+          <Component Id="AddFileTypeAssociationHPP" Guid="63BED6DF-A9B8-4883-8F73-500EFB737AC9">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="hpp" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).hpp" Description="C++ Header" Icon="CPP.ICO">
               <Extension Id="hpp">
@@ -461,7 +461,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationHTM" Guid="704F9778-E50F-4DB9-A7CB-23171F74F02B">
+          <Component Id="AddFileTypeAssociationHTM" Guid="120DBEB4-9A9F-46E3-B1E1-A4D4602973A0">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="htm" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).htm" Description="HTML" Icon="HTML.ICO">
               <Extension Id="htm">
@@ -469,7 +469,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationHTML" Guid="49FC1F09-7861-455D-AEA8-7B712EC28923">
+          <Component Id="AddFileTypeAssociationHTML" Guid="564B03CF-F183-4483-AEE5-45D75E6995A7">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="html" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).html" Description="HTML" Icon="HTML.ICO">
               <Extension Id="html">
@@ -477,7 +477,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationHXX" Guid="CF407366-B61D-4157-B5FC-3A2771F10225">
+          <Component Id="AddFileTypeAssociationHXX" Guid="0F0F2F60-1663-4153-956F-09F989C9299B">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="hxx" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).hxx" Description="C++ Header" Icon="CPP.ICO">
               <Extension Id="hxx">
@@ -485,7 +485,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationINI" Guid="7DB723AC-8371-40EE-A922-164A0C276761">
+          <Component Id="AddFileTypeAssociationINI" Guid="D4800FAD-0858-43C9-BDBB-2805C650BCB9">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="ini" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).ini" Description="INI" Icon="CONFIG.ICO">
               <Extension Id="ini">
@@ -493,7 +493,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationJADE" Guid="5A96835F-2AED-402B-B3A3-541746889384">
+          <Component Id="AddFileTypeAssociationJADE" Guid="28530800-F318-4B22-A0E8-D9B55D979153">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="jade" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).jade" Description="Jade" Icon="JADE.ICO">
               <Extension Id="jade">
@@ -501,7 +501,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationJAV" Guid="FDA4470F-CABA-4B7C-A556-350E580D7D2C">
+          <Component Id="AddFileTypeAssociationJAV" Guid="E2E069CC-96D0-4BE8-8128-42446973D077">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="jav" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).jav" Description="Java" Icon="JAVA.ICO">
               <Extension Id="jav">
@@ -509,7 +509,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationJAVA" Guid="FADDD0C3-A91C-4232-8C96-97F3933EC477">
+          <Component Id="AddFileTypeAssociationJAVA" Guid="B9602283-2B46-4EA8-8C40-18571A0F0727">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="java" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).java" Description="Java" Icon="JAVA.ICO">
               <Extension Id="java">
@@ -517,7 +517,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationJS" Guid="7C126CC6-F965-4D65-9EE9-0B9C76E4E89A">
+          <Component Id="AddFileTypeAssociationJS" Guid="F78A71E3-9276-4DB3-B54D-50CBC37C2E79">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="js" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).js" Description="JavaScript" Icon="JAVASCRIPT.ICO">
               <Extension Id="js">
@@ -525,7 +525,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationJSX" Guid="FBAC73C5-EFEE-4B09-A885-509DAD1C809A">
+          <Component Id="AddFileTypeAssociationJSX" Guid="75A43CE0-AB94-4C9B-B6AC-AC826E7AFB18">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="jsx" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).jsx" Description="JavaScript" Icon="REACT.ICO">
               <Extension Id="jsx">
@@ -533,7 +533,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationJSCSRC" Guid="5460B0FA-9F3D-4666-A069-36EB351F438F">
+          <Component Id="AddFileTypeAssociationJSCSRC" Guid="990F8539-8729-49B1-B7F7-B4B6535A9C93">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="jscsrc" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).jscsrc" Description="JSCS RC" Icon="JAVASCRIPT.ICO">
               <Extension Id="jscsrc">
@@ -541,7 +541,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationJSHINTRC" Guid="B5AEEB20-5A05-444D-B6D1-C0A8A28D2CD4">
+          <Component Id="AddFileTypeAssociationJSHINTRC" Guid="097863D4-45BC-4ED4-BB50-927399DEACC0">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="jshintrc" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).jshintrc" Description="JSHint RC" Icon="JAVASCRIPT.ICO">
               <Extension Id="jshintrc">
@@ -549,7 +549,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationJSHTM" Guid="148D02EC-259C-4DD8-B066-EE034A6D32BF">
+          <Component Id="AddFileTypeAssociationJSHTM" Guid="0C7A329E-DA81-4CA2-AAEE-B51ACC1C0851">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="jshtm" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).jshtm" Description="JavaScript HTML Template" Icon="HTML.ICO">
               <Extension Id="jshtm">
@@ -557,7 +557,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationJSON" Guid="0F88F7D4-8AA8-4530-875F-90F0B5B416B9">
+          <Component Id="AddFileTypeAssociationJSON" Guid="80E0A2E7-42C8-41F6-8B73-38D9B0281082">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="json" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).json" Description="JSON" Icon="JSON.ICO">
               <Extension Id="json">
@@ -565,7 +565,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationJSP" Guid="697CBB01-2F32-4B9C-981E-DD497C3E575C">
+          <Component Id="AddFileTypeAssociationJSP" Guid="9180EE0B-E950-410F-8368-7426C508D056">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="jsp" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).jsp" Description="Java Server Pages" Icon="HTML.ICO">
               <Extension Id="jsp">
@@ -573,7 +573,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationLESS" Guid="B52F05EF-C65F-426E-A638-2EBB75851270">
+          <Component Id="AddFileTypeAssociationLESS" Guid="11E195B1-959F-4CA7-9406-D7A36F6EE851">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="less" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).less" Description="LESS" Icon="LESS.ICO">
               <Extension Id="less">
@@ -581,7 +581,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationLUA" Guid="CBCF919B-5D83-46F4-B62E-042BBE94B1DA">
+          <Component Id="AddFileTypeAssociationLUA" Guid="CC06681B-8765-4501-A530-7256C07E5988">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="lua" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).lua" Description="Lua" Icon="DEFAULT.ICO">
               <Extension Id="lua">
@@ -589,7 +589,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationM" Guid="6F196166-9636-4548-A7CD-E7E468F321D2">
+          <Component Id="AddFileTypeAssociationM" Guid="6F612F04-360D-44E1-BDEA-40F5B1329636">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="m" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).m" Description="Objective C" Icon="DEFAULT.ICO">
               <Extension Id="m">
@@ -597,7 +597,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationMAKEFILE" Guid="18AB8E83-235D-4A49-8C2C-FF365BE59CC9">
+          <Component Id="AddFileTypeAssociationMAKEFILE" Guid="C9FAFDDD-2106-4FCC-B58A-5A744A210297">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="makefile" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).makefile" Description="Makefile" Icon="DEFAULT.ICO">
               <Extension Id="makefile">
@@ -605,7 +605,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationMARKDOWN" Guid="88926966-917C-4367-9AD7-40356B3D2225">
+          <Component Id="AddFileTypeAssociationMARKDOWN" Guid="B66F03A1-5E80-4069-9942-8708CECD50BA">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="markdown" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).markdown" Description="Markdown" Icon="MARKDOWN.ICO">
               <Extension Id="markdown">
@@ -613,7 +613,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationMD" Guid="49A08957-06D7-4A96-8DA7-EB78A484992B">
+          <Component Id="AddFileTypeAssociationMD" Guid="5BC70119-92F9-45A0-91EC-9222A5A20B38">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="md" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).md" Description="Markdown" Icon="MARKDOWN.ICO">
               <Extension Id="md">
@@ -621,7 +621,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationMDOC" Guid="013518F8-8C7C-41D1-A33A-FDC6224C7FC2">
+          <Component Id="AddFileTypeAssociationMDOC" Guid="9012E308-2561-4190-BF29-DC7EF1F25E70">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="mdoc" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).mdoc" Description="MDoc" Icon="MARKDOWN.ICO">
               <Extension Id="mdoc">
@@ -629,7 +629,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationMDOWN" Guid="846E77C8-77B7-4AC6-A192-0D5D7B0CFFC5">
+          <Component Id="AddFileTypeAssociationMDOWN" Guid="B089800F-7854-475E-BD72-6536691510E1">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="mdown" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).mdown" Description="Markdown" Icon="MARKDOWN.ICO">
               <Extension Id="mdown">
@@ -637,7 +637,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationMDTEXT" Guid="B7C23030-7BBD-49DB-B2CD-AA0AAA564516">
+          <Component Id="AddFileTypeAssociationMDTEXT" Guid="7298C529-4208-4C7C-8205-0C56C5C51194">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="mdtext" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).mdtext" Description="Markdown" Icon="MARKDOWN.ICO">
               <Extension Id="mdtext">
@@ -645,7 +645,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationMDTXT" Guid="BC110E05-2CD8-4FCA-8100-16591F0B917D">
+          <Component Id="AddFileTypeAssociationMDTXT" Guid="5B658A63-F45C-467E-9DC3-0BD992A8FB4F">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="mdtxt" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).mdtxt" Description="Markdown" Icon="MARKDOWN.ICO">
               <Extension Id="mdtxt">
@@ -653,7 +653,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationMDWN" Guid="05BFD645-A086-409D-A2EF-6937E2E51BED">
+          <Component Id="AddFileTypeAssociationMDWN" Guid="23F1FE76-6E24-4E7A-9324-27B85716B4F2">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="mdwn" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).mdwn" Description="Markdown" Icon="MARKDOWN.ICO">
               <Extension Id="mdwn">
@@ -661,7 +661,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationMKD" Guid="55503594-63DD-4D6F-AACB-5910E8896830">
+          <Component Id="AddFileTypeAssociationMKD" Guid="44E191FC-EC82-441E-A9AC-B900F0F31763">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="mkd" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).mkd" Description="Markdown" Icon="MARKDOWN.ICO">
               <Extension Id="mkd">
@@ -669,7 +669,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationMKDN" Guid="A36E20D3-CD92-44CF-A2D4-225A15E09235">
+          <Component Id="AddFileTypeAssociationMKDN" Guid="79A81E00-AF4D-4476-B01A-A3BDFE6E9BCD">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="mkdn" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).mkdn" Description="Markdown" Icon="MARKDOWN.ICO">
               <Extension Id="mkdn">
@@ -677,7 +677,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationML" Guid="1A12356D-159D-4881-8042-55D9CCB1C10D">
+          <Component Id="AddFileTypeAssociationML" Guid="5D939DCF-FB69-461E-8AE2-2A75F86CFCE3">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="ml" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).ml" Description="OCaml" Icon="DEFAULT.ICO">
               <Extension Id="ml">
@@ -685,7 +685,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationMLI" Guid="DD4A6B28-5244-4597-856E-38C264DDA4FC">
+          <Component Id="AddFileTypeAssociationMLI" Guid="C01206EE-D60B-4BC2-89B4-6A1D3DF1F4E9">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="mli" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).mli" Description="OCaml" Icon="DEFAULT.ICO">
               <Extension Id="mli">
@@ -693,7 +693,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationMJS" Guid="294FF597-15F3-4912-8966-43E142D15DC3">
+          <Component Id="AddFileTypeAssociationMJS" Guid="086A6F0C-ABB3-427A-A606-51FE9681C6FA">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="mjs" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).mjs" Description="JavaScript" Icon="JAVASCRIPT.ICO">
               <Extension Id="mjs">
@@ -701,7 +701,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationNPMIGNORE" Guid="35F1D005-44D2-42A2-BBAB-6F0DF9DD2CE3">
+          <Component Id="AddFileTypeAssociationNPMIGNORE" Guid="86CF1D53-1ECD-4061-9CA1-5E98D30DA71F">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="npmignore" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).npmignore" Description="NPM Ignore" Icon="DEFAULT.ICO">
               <Extension Id="npmignore">
@@ -709,7 +709,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationPHP" Guid="F439AD4F-14F9-450B-A1DF-7D6EE339A03D">
+          <Component Id="AddFileTypeAssociationPHP" Guid="F727785D-1152-40DC-A854-0779A05A4D50">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="php" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).php" Description="PHP" Icon="DEFAULT.ICO">
               <Extension Id="php">
@@ -717,7 +717,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationPHTML" Guid="90AB1D02-CE26-42C3-A39E-FE6E4C4A1E10">
+          <Component Id="AddFileTypeAssociationPHTML" Guid="AB4FBC69-6F74-40EE-9302-79D1DC3EBA29">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="phtml" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).phtml" Description="PHP HTML" Icon="PHP.ICO">
               <Extension Id="phtml">
@@ -725,7 +725,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationPL" Guid="AE18A42E-4F32-4ACF-A524-3DAF88B39175">
+          <Component Id="AddFileTypeAssociationPL" Guid="873B5E05-0D67-452C-AED0-FE7083C58FAC">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="pl" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).pl" Description="Perl" Icon="DEFAULT.ICO">
               <Extension Id="pl">
@@ -733,7 +733,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationPL6" Guid="1CBD0C16-FA96-44CE-ABC8-71C12A81FE39">
+          <Component Id="AddFileTypeAssociationPL6" Guid="96E382E8-7A7C-4C44-9314-182B968C6950">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="pl6" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).pl6" Description="Perl 6" Icon="DEFAULT.ICO">
               <Extension Id="pl6">
@@ -741,7 +741,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationPM" Guid="5D9AD201-8257-402C-9630-BF415394B4B3">
+          <Component Id="AddFileTypeAssociationPM" Guid="55614041-73AE-472F-96A4-A3A20D8E0924">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="pm" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).pm" Description="Perl Module" Icon="DEFAULT.ICO">
               <Extension Id="pm">
@@ -749,7 +749,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationPM6" Guid="1AF1C883-1F01-4D0F-B57C-5D386FC9766B">
+          <Component Id="AddFileTypeAssociationPM6" Guid="632DA125-2E08-4148-BC1C-04CADAA8B041">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="pm6" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).pm6" Description="Perl 6 Module" Icon="DEFAULT.ICO">
               <Extension Id="pm6">
@@ -757,7 +757,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationPOD" Guid="D9737BCC-4698-498D-9163-603FFC799352">
+          <Component Id="AddFileTypeAssociationPOD" Guid="E10245D9-C8EE-49FE-8F20-9087CC29E443">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="pod" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).pod" Description="Perl POD" Icon="DEFAULT.ICO">
               <Extension Id="pod">
@@ -765,7 +765,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationPP" Guid="6DE611DC-12B9-4B84-8878-618194E992CC">
+          <Component Id="AddFileTypeAssociationPP" Guid="BE9611C2-357A-4FD2-B161-159AE1D7B9FE">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="pp" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).pp" Description="Perl" Icon="DEFAULT.ICO">
               <Extension Id="pp">
@@ -773,7 +773,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationPROFILE" Guid="C86E9B56-7403-4495-AA19-A3C96718C04E">
+          <Component Id="AddFileTypeAssociationPROFILE" Guid="59931C90-8FB5-4959-B51A-0BB581A97153">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="profile" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).profile" Description="Profile" Icon="SHELL.ICO">
               <Extension Id="profile">
@@ -781,7 +781,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationPROPERTIES" Guid="A4C72D6B-329C-415E-A2A7-C839EED79D1C">
+          <Component Id="AddFileTypeAssociationPROPERTIES" Guid="18CEB37B-55DB-4B06-A426-E2B3536380A9">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="properties" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).properties" Description="Properties" Icon="DEFAULT.ICO">
               <Extension Id="properties">
@@ -789,7 +789,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationPS1" Guid="B7CDEA41-0911-43E0-9786-2E40EEEBA385">
+          <Component Id="AddFileTypeAssociationPS1" Guid="FBE4CADD-5F54-4B20-99D4-38BDBB1D4FA3">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="ps1" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).ps1" Description="PowerShell" Icon="POWERSHELL.ICO">
               <Extension Id="ps1">
@@ -797,7 +797,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationPSD1" Guid="4CF9CA09-DEF7-4012-87A6-614FE9F9241E">
+          <Component Id="AddFileTypeAssociationPSD1" Guid="45EC0D51-E5FB-466B-9C5E-C40D160CA9DE">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="psd1" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).psd1" Description="PowerShell" Icon="POWERSHELL.ICO">
               <Extension Id="psd1">
@@ -805,7 +805,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationPSGI" Guid="5B626BF9-E2B3-49D5-AA35-14069C26D1D6">
+          <Component Id="AddFileTypeAssociationPSGI" Guid="DD64CE89-C9F7-4002-A2FB-41BD880A6ED5">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="psgi" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).psgi" Description="Perl CGI" Icon="DEFAULT.ICO">
               <Extension Id="psgi">
@@ -813,7 +813,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationPSM1" Guid="F7A5DADC-D96A-4081-8E98-67656BCF2806">
+          <Component Id="AddFileTypeAssociationPSM1" Guid="24729992-7D1A-4041-84A6-6103AF23F8FB">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="psm1" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).psm1" Description="PowerShell Module" Icon="POWERSHELL.ICO">
               <Extension Id="psm1">
@@ -821,7 +821,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationPY" Guid="2F707399-97A3-4B0A-9EF8-8409E94744AE">
+          <Component Id="AddFileTypeAssociationPY" Guid="0CF92E47-4425-4F19-91A1-C756F1B78AF1">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="py" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).py" Description="Python" Icon="PYTHON.ICO">
               <Extension Id="py">
@@ -829,7 +829,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationR" Guid="89874E57-4075-461E-8079-BDE1B5589417">
+          <Component Id="AddFileTypeAssociationR" Guid="6692644E-287F-4126-AFDA-C658A3EA69E9">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="r" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).r" Description="R" Icon="DEFAULT.ICO">
               <Extension Id="r">
@@ -837,7 +837,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationRB" Guid="88042CF5-FF5F-4D61-82B2-0491FBA1E12A">
+          <Component Id="AddFileTypeAssociationRB" Guid="C1888376-7025-4D67-AFA7-3587A67EEDB0">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="rb" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).rb" Description="Ruby" Icon="RUBY.ICO">
               <Extension Id="rb">
@@ -845,7 +845,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationRHISTORY" Guid="0E62ED75-6901-49D2-8875-E0E2EB6BE97E">
+          <Component Id="AddFileTypeAssociationRHISTORY" Guid="A83B710E-4EF5-4144-96D9-9286E666EFC9">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="rhistory" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).rhistory" Description="R History" Icon="SHELL.ICO">
               <Extension Id="rhistory">
@@ -853,7 +853,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationRPROFILE" Guid="A19EF367-9457-43BA-8F35-B703F76B8484">
+          <Component Id="AddFileTypeAssociationRPROFILE" Guid="468E32FE-6037-4744-BD94-667EF814B846">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="rhistory" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).rprofile" Description="R Profile" Icon="SHELL.ICO">
               <Extension Id="rprofile">
@@ -861,7 +861,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationRS" Guid="03DB3E46-9CEE-4F86-B4DC-C92A85B9F8EC">
+          <Component Id="AddFileTypeAssociationRS" Guid="FCF4BC3B-617B-4A41-812C-5BE251BF82AE">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="rs" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).rs" Description="Rust" Icon="DEFAULT.ICO">
               <Extension Id="rs">
@@ -869,7 +869,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationRT" Guid="13772A9E-BDD5-4B63-A0FA-79F70455627F">
+          <Component Id="AddFileTypeAssociationRT" Guid="425E7A5B-3A2D-4648-A9CD-0753930622CF">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="rt" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).rt" Description="Rich Text" Icon="DEFAULT.ICO">
               <Extension Id="rt">
@@ -877,7 +877,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationSCSS" Guid="8E39E8A4-3F5F-485D-8B5B-F4E4EEDCD194">
+          <Component Id="AddFileTypeAssociationSCSS" Guid="52B947FB-D606-42B3-AE90-FCFC0228E2FB">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="scss" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).scss" Description="Sass" Icon="SASS.ICO">
               <Extension Id="scss">
@@ -885,7 +885,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationSH" Guid="1DEFB390-78D6-4F18-A8FA-549FF8B1B85B">
+          <Component Id="AddFileTypeAssociationSH" Guid="667E147D-3BE9-4196-A87F-FEEC5FCD51D6">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="sh" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).sh" Description="SH" Icon="SHELL.ICO">
               <Extension Id="sh">
@@ -893,7 +893,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationSHTML" Guid="70D59781-AD45-4B07-A645-2F3F4DB4CD60">
+          <Component Id="AddFileTypeAssociationSHTML" Guid="B452F6C3-E057-42C0-9ECA-7A6E1F079DC2">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="shtml" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).shtml" Description="SHTML" Icon="HTML.ICO">
               <Extension Id="shtml">
@@ -901,7 +901,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationSQL" Guid="A15D23CD-003E-4852-AF0E-C1047442CFD6">
+          <Component Id="AddFileTypeAssociationSQL" Guid="40069877-009A-4092-9267-E6BF568D803A">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="sql" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).sql" Description="SQL" Icon="SQL.ICO">
               <Extension Id="sql">
@@ -909,7 +909,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationSVG" Guid="DFAB73BC-D8A5-4D66-87D5-91BB2873451E">
+          <Component Id="AddFileTypeAssociationSVG" Guid="FED3ECC5-3F94-4FB8-8DD9-CAEC1A35C8F7">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="svg" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).svg" Description="SVG" Icon="DEFAULT.ICO">
               <Extension Id="svg">
@@ -917,7 +917,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationSVGZ" Guid="368C2963-9E82-4FCE-A35C-DC90B5491BF9">
+          <Component Id="AddFileTypeAssociationSVGZ" Guid="4FDE0D28-A6A1-4277-B575-B30EF8529234">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="svgz" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).svgz" Description="SVGZ" Icon="DEFAULT.ICO">
               <Extension Id="svgz">
@@ -925,7 +925,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationT" Guid="D8065140-F75E-406A-9580-CE72E1719E77">
+          <Component Id="AddFileTypeAssociationT" Guid="23E11FAB-FCBD-4F91-8A7D-B06ECC6E662F">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="t" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).t" Description="Perl" Icon="DEFAULT.ICO">
               <Extension Id="t">
@@ -933,7 +933,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationTEX" Guid="32591F31-F670-4193-8F1B-24B650AB87A6">
+          <Component Id="AddFileTypeAssociationTEX" Guid="27AA81D8-0FA7-4880-B52C-FCC6CEC9D5BD">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="tex" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).tex" Description="LaTeX" Icon="DEFAULT.ICO">
               <Extension Id="tex">
@@ -941,7 +941,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationTS" Guid="356FD07B-B869-49D4-9F57-4253168C4459">
+          <Component Id="AddFileTypeAssociationTS" Guid="54BA8370-4EF3-480E-9665-E8D1483DD4BA">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="ts" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).ts" Description="TypeScript" Icon="TYPESCRIPT.ICO">
               <Extension Id="ts">
@@ -949,7 +949,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationTSX" Guid="B868A66F-333D-4A56-9544-1DE927D4CCB9">
+          <Component Id="AddFileTypeAssociationTSX" Guid="C63A1E8F-09BC-492B-911B-D718A2867BBF">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="tsx" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).tsx" Description="TypeScript" Icon="REACT.ICO">
               <Extension Id="tsx">
@@ -957,7 +957,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationTXT" Guid="6099873C-1CAE-489A-A9E4-3C6BA4C11584">
+          <Component Id="AddFileTypeAssociationTXT" Guid="054030A0-B872-4865-9B1B-D2A1286F25DE">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="txt" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).txt" Description="Text" Icon="DEFAULT.ICO">
               <Extension Id="txt">
@@ -965,7 +965,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationVB" Guid="CDEAC643-1E5B-43AA-858F-C230AAABAF50">
+          <Component Id="AddFileTypeAssociationVB" Guid="9705FB35-780E-45ED-BE4D-C56B01CA40D4">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="vb" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).vb" Description="Visual Basic" Icon="DEFAULT.ICO">
               <Extension Id="vb">
@@ -973,7 +973,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationVUE" Guid="F04A49E4-E83E-4356-B6AB-E44031CDBE96">
+          <Component Id="AddFileTypeAssociationVUE" Guid="DC2919DB-8184-4A20-8B21-54ABC5625630">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="vue" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).vue" Description="VUE" Icon="VUE.ICO">
               <Extension Id="vue">
@@ -981,7 +981,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationWXI" Guid="E2092642-76B1-4F94-A3AC-CD610432B4D7">
+          <Component Id="AddFileTypeAssociationWXI" Guid="AE222E0E-6872-4AE9-A255-1720BD2D7C91">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="wxi" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).wxi" Description="WiX Include" Icon="DEFAULT.ICO">
               <Extension Id="wxi">
@@ -989,7 +989,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationWXL" Guid="08A19F16-714E-4AB2-9F2F-5BBB165BEA5C">
+          <Component Id="AddFileTypeAssociationWXL" Guid="15ACD0F2-BADD-4A7F-839C-E095D68FE9CD">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="wxl" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).wxl" Description="WiX Localization" Icon="DEFAULT.ICO">
               <Extension Id="wxl">
@@ -997,7 +997,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationWXS" Guid="122922C5-76D2-4529-BF8A-605CDF774FDE">
+          <Component Id="AddFileTypeAssociationWXS" Guid="801D0E01-EE26-4D20-ABBE-C1B9D6F5C188">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="wxs" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).wxs" Description="WiX" Icon="DEFAULT.ICO">
               <Extension Id="wxs">
@@ -1005,7 +1005,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationXAML" Guid="84DDD0C0-A531-4CDF-B1F6-18F4A69A9C42">
+          <Component Id="AddFileTypeAssociationXAML" Guid="AA9E5785-0550-424B-8435-89D895EA126B">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="xaml" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).xaml" Description="XAML" Icon="XML.ICO">
               <Extension Id="xaml">
@@ -1013,7 +1013,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationXML" Guid="E52573F5-9983-4E22-AB10-71823C3E96B6">
+          <Component Id="AddFileTypeAssociationXML" Guid="29100EDD-D0B7-4100-8671-E939ACF431D7">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="xml" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).xml" Description="XML" Icon="XML.ICO">
               <Extension Id="xml">
@@ -1021,7 +1021,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationYAML" Guid="E5B65D81-A9A2-4188-A966-269AF709D763">
+          <Component Id="AddFileTypeAssociationYAML" Guid="036777A0-5399-4CC3-B750-010B9AB0AC52">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="yaml" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).yaml" Description="Yaml" Icon="YAML.ICO">
               <Extension Id="yaml">
@@ -1029,7 +1029,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationYML" Guid="8CBE4F5C-538C-42C7-9CF9-539E7EF4E175">
+          <Component Id="AddFileTypeAssociationYML" Guid="06783B91-8A79-4890-96A1-327DD841F2D8">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="yml" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).yml" Description="Yaml" Icon="YAML.ICO">
               <Extension Id="yml">
@@ -1037,7 +1037,7 @@
               </Extension>
             </ProgId>
           </Component>
-          <Component Id="AddFileTypeAssociationZSH" Guid="503D5E58-10E4-47FA-B43B-789048179383">
+          <Component Id="AddFileTypeAssociationZSH" Guid="E5D80792-AC79-48AE-B0E1-B381D63D3203">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components\FileTypeAssociations" Name="zsh" Type="integer" Value="1" />
             <ProgId Id="$(var.AppCodeName).zsh" Description="ZSH" Icon="SHELL.ICO">
               <Extension Id="zsh">
@@ -1073,7 +1073,7 @@
             <RegistryValue Root="HKLM" Key="SOFTWARE\Classes\Drive\shell\$(var.AppCodeName)\command" Value="&quot;[APPLICATIONFOLDER]$(var.AppName).exe&quot; &quot;%V&quot;" Type="string" Action="write" />
           </Component>
 
-          <Component Id="AddToEnvironmentPath" Guid="{A75E4C99-6713-45B9-8EC2-B9391592984C}">
+          <Component Id="AddToEnvironmentPath" Guid="{EF15DF43-507A-40EB-AFCB-DB01B5D03C9E}">
             <RegistryValue Root="HKLM" Key="SOFTWARE\$(var.ProductManufacturerShort)\$(var.AppName)\Components" Name="EnvironmentPath" Type="integer" Value="1" />
             <Environment Id="PATH" Name="PATH" Value="[APPLICATIONFOLDER]bin" Permanent="yes" Part="last" Action="set" System="yes" />
           </Component>
