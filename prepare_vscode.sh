@@ -234,8 +234,8 @@ if [[ "${OS_NAME}" == "linux" ]]; then
   sed -i "s|Visual Studio Code|${APP_NAME}|"  resources/linux/rpm/code.spec.template
 elif [[ "${OS_NAME}" == "windows" ]]; then
   # code.iss
-  # sed -i 's|https://code.visualstudio.com|https://vscodium.com|' build/win32/code.iss
-  # sed -i 's|Microsoft Corporation|VSCodium|' build/win32/code.iss
+  sed -i 's|https://code.visualstudio.com|https://vscodium.com|' build/win32/code.iss
+  sed -i "s|Microsoft Corporation|${APP_NAME}|" build/win32/code.iss
 fi
 
 cd ..
